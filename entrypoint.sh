@@ -1,3 +1,3 @@
 #!/bin/sh
 
-bundle outdated --filter-patch
+bundle outdated --local --filter-patch

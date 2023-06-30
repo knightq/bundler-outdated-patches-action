@@ -1,0 +1,11 @@
+name: 'Bundler Outdated Patches Action'
+description: 'Github Action to check for outdated gems (patch versions only)'
+author: 'Andrea Salicetti <andrea.salicetti@gmail.com>'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+env:
+  GITHUB_TOKEN: secrets.GITHUB_TOKEN
+branding:
+  icon: 'shield'
+  color: 'gray-dark'

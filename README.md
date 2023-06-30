@@ -8,7 +8,7 @@
 
 ![Version Number](https://img.shields.io/static/v1?label=Version&message=v0.1.0&color=blue)
 ![Linters](https://github.com/knightq/bundler-outdated-patches-action/workflows/Linters/badge.svg)
-[![Changelog](https://github.com/knightq/rubocop-linter-action/workflows/Changelog/badge.svg)][changelog]
+[![Changelog](https://github.com/knightq/bundler-outdated-patches-action/workflows/Changelog/badge.svg)][changelog]
 
 This GitHub Action runs a `bundler outdated --filter-patch` on your project.
 

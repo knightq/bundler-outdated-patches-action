@@ -23,7 +23,8 @@ jobs:
   outdated:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
       - name: 'Bundler Outdated Patches'
         uses: knightq/bundler-outdated-patches-action@main
         env:

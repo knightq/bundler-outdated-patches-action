@@ -4,6 +4,8 @@ author: 'Andrea Salicetti <andrea.salicetti@gmail.com>'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+volumes:
+  - ${{ github.workspace }}:/app
 env:
   GITHUB_TOKEN: secrets.GITHUB_TOKEN
 branding:
